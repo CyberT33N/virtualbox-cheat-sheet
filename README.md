@@ -166,3 +166,20 @@ sudo rm -f /EMPTY
 ```bash
 "C:\Program Files\Oracle\VirtualBox\VBoxManage.exe" clonehd "C:\Users\Administrator\VirtualBox VMs\Windows 7\Windows 7.vmdk" "C:\Users\Administrator\VirtualBox VMs\Windows 7\Windows 7 dynamic-DRIVE.vmdk" --variant Standard
 ```  
+
+
+<br />
+<br />
+
+
+ _____________________________________________________
+ _____________________________________________________
+
+
+<br />
+<br />
+
+# Shortcuts
+
+## Leave scale mode
+- Right Ctrl (Host Key) + c
