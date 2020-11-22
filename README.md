@@ -6,6 +6,20 @@ Virtualbox Cheat Sheet with the most needed stuff..
 <br />
 
 
+# Performance
+- Go to Nvidia 3D Settings and add VirtualBoxVM.exe to your list and enable everything (https://superuser.com/questions/779070/use-nvidia-gpu-from-virtualbox)
+
+<br />
+<br />
+
+
+ _____________________________________________________
+ _____________________________________________________
+
+
+<br />
+<br />
+
 
 # Guest Additions
 
