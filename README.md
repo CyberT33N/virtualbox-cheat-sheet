@@ -9,16 +9,34 @@ Virtualbox Cheat Sheet with the most needed stuff..
 # Performance
 - Go to Nvidia 3D Settings and add VirtualBoxVM.exe to your list and enable everything (https://superuser.com/questions/779070/use-nvidia-gpu-from-virtualbox)
 
-<br />
-<br />
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<br><br>
  _____________________________________________________
  _____________________________________________________
-
-
-<br />
-<br />
+<br><br>
 
 
 # Guest Additions
@@ -62,16 +80,50 @@ cd /opt/virtualbox folder here
 sudo sh uninstall.sh
 ```  
 
-<br />
-<br />
 
+
+
+
+
+
+
+
+
+
+
+# extension pack
+- https://www.oracle.com/virtualization/technologies/vm/downloads/virtualbox-downloads.html#extpack
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<br><br>
 
  _____________________________________________________
+
  _____________________________________________________
 
-
-<br />
-<br />
+<br><br>
 
 ## Shared folder permissions
 ```bash
@@ -79,16 +131,45 @@ sudo adduser usernamehere vboxsf
 # reboot after this
 ```  
 
-<br />
-<br />
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<br><br>
 
  _____________________________________________________
+
  _____________________________________________________
 
-
-<br />
-<br />
+<br><br>
 
 ## Change UUID
 ```bash
@@ -107,16 +188,47 @@ sudo adduser usernamehere vboxsf
 
 
 
-<br />
-<br />
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<br><br>
 
  _____________________________________________________
+
  _____________________________________________________
 
-
-<br />
-<br />
+<br><br>
 
 # Convert
 **IMPORTANT**
@@ -130,16 +242,53 @@ You must remove virtualbox encryption before convert or it not work..
 
 
 
-<br />
-<br />
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<br><br>
 
  _____________________________________________________
+
  _____________________________________________________
 
-
-<br />
-<br />
+<br><br>
 
 
 ## Reduce size of .vdi files
@@ -159,16 +308,44 @@ sudo rm -f /EMPTY
 
 
 
-<br />
-<br />
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<br><br>
 
  _____________________________________________________
+
  _____________________________________________________
 
-
-<br />
-<br />
+<br><br>
 
 ## Resize dynamic VM
 ```bash
@@ -182,16 +359,50 @@ sudo rm -f /EMPTY
 ```  
 
 
-<br />
-<br />
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<br><br>
 
  _____________________________________________________
+
  _____________________________________________________
 
-
-<br />
-<br />
+<br><br>
 
 # Shortcuts
 
