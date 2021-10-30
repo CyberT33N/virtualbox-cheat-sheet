@@ -54,6 +54,10 @@ sudo kill <pid>
 
 ## Linux
 ```bash
+# method 1
+sudo apt-get remove --purge virtualbox-6.1 
+
+# method 2
 sudo apt-get remove virtualbox-* --purge
 ```
 
