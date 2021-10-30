@@ -28,6 +28,66 @@ Virtualbox Cheat Sheet with the most needed stuff..
 
 
 
+<br><br>
+ _____________________________________________________
+ _____________________________________________________
+<br><br>
+
+
+# Kill active process
+```bash
+# get all the processes containing VB
+ps -A | grep VB
+
+# then kill all processes with the command
+sudo kill <pid>
+```
+
+
+<br><br>
+
+
+# Uninstall
+
+
+<br><br>
+
+## Linux
+```bash
+sudo apt-get remove virtualbox-* --purge
+```
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
