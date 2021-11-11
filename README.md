@@ -2,8 +2,23 @@
 Virtualbox Cheat Sheet with the most needed stuff..
 <br />
 <br />
-<br />
-<br />
+
+
+<br><br><br><br>
+
+
+
+
+
+# Old versions
+- https://www.virtualbox.org/wiki/Download_Old_Builds_6_1
+
+
+
+
+<br><br><br><br>
+
+
 
 
 # Performance
