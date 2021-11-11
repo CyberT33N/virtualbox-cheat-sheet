@@ -46,6 +46,23 @@ sudo kill <pid>
 
 <br><br>
 
+# Install
+
+<br><br>
+
+## Ubuntu
+```bash
+sudo apt install virtualbox
+```
+
+
+
+
+
+
+<br><br>
+<br><br>
+
 
 # Uninstall
 
