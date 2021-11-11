@@ -133,8 +133,7 @@ In some cases people get black screen after boot up. To fix this DISBALE 3D acce
 #### Step 6.
 Start virtual machine and check if copy and paste works to verify that Guest Additions was installed correctly.
 
-<br />
-<br />
+<br><br>
 
 
 ## Deinstall Guest Additions if screen is black after boot
@@ -149,7 +148,7 @@ sudo sh uninstall.sh
 
 
 
-
+<br><br><br><br>
 
 
 
@@ -157,6 +156,12 @@ sudo sh uninstall.sh
 
 # extension pack
 - https://www.oracle.com/virtualization/technologies/vm/downloads/virtualbox-downloads.html#extpack
+- You can install via Settings > Extensions
+
+<br><br>
+
+## Error while installing extension pack
+- If you got a error related to something as ACCES DENIED then run virtualbox as admin and try again
 
 
 
