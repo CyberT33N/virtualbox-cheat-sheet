@@ -153,6 +153,11 @@ In order To install VirtualBox Guest Additions on Ubuntu virtual machine, Got to
 This will open a pop up window and it will ask you to run it. Press Run button <br />
 After pressing Run button it will install VirtualBox Guest Additions. Press enter to close the window.
 
+On Linux you can go inside of the CD and then run in terminal:
+```
+autorun.sh
+```
+
 
 #### Step 4. Shut down. 
 
