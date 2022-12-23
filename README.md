@@ -200,6 +200,11 @@ sudo sh uninstall.sh
 ## Error while installing extension pack
 - If you got a error related to something as ACCES DENIED then run virtualbox as admin and try again
 
+<br><br>
+
+## VERR_FILE_NOT_FOUND - /usr/lib/virtualbox/ExtensionPacks/Oracle_VM_VirtualBox_Extension_Pack/linux.amd64/VBoxPuelMain.so: undefined symbol: RTUtf16NCmp.
+- Download the extension pack that will match your virtualbox version
+  - https://www.virtualbox.org/wiki/Download_Old_Builds_6_1
 
 
 
