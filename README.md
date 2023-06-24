@@ -147,7 +147,8 @@ sudo apt install linux-headers-$(uname -r) build-essential dkms
 
 #### Step 2. Install Guest Additions using virtual box.
 In order To install VirtualBox Guest Additions on Ubuntu virtual machine, Got to VirtualBox  -  select the Devices from VirtualBox host application menu - click Insert Guest Additions CD image.
-
+- Or download here (Check your vbox version before):
+  - [https://download.virtualbox.org/virtualbox/7.0.6/](https://download.virtualbox.org/virtualbox/7.0.6/VBoxGuestAdditions_7.0.6.iso)
 
 #### Step 3. 
 This will open a pop up window and it will ask you to run it. Press Run button <br />
