@@ -199,7 +199,8 @@ sudo sh uninstall.sh
 
 
 
-<br><br><br><br>
+<br><br>
+<br><br>
 
 
 
@@ -220,6 +221,9 @@ VBoxManage extpack uninstall "Oracle VM VirtualBox Extension Pack"
 
 ## Install
 ```
+# method 1 - just execute the vbox file 
+
+# method #2
 VBoxManage extpack install /Desktop/Oracle_VM_VirtualBox_Extension_Pack-6.1.38-153438.vbox-extpack
 ```
 
