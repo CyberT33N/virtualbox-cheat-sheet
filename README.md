@@ -68,6 +68,10 @@ sudo kill <pid>
 ## Ubuntu
 ```bash
 sudo apt install virtualbox
+
+sudo usermod -G vboxusers -a $USER
+
+# sign out and in again for group changes take effect
 ```
 
 
