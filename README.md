@@ -90,10 +90,13 @@ sudo usermod -G vboxusers -a $USER
 
 ## Linux
 ```bash
-# method 1
-sudo apt-get remove --purge virtualbox-6.1 
+# method 2
+sudo apt-get remove --purge virtualbox
 
 # method 2
+sudo apt-get remove --purge virtualbox-6.1 
+
+# method 3
 sudo apt-get remove virtualbox-* --purge
 ```
 
