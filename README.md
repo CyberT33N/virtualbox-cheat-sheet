@@ -67,6 +67,12 @@ sudo kill <pid>
 
 ## Ubuntu
 ```bash
+# method 1
+# https://www.virtualbox.org/wiki/Downloads
+sudo apt install downloadedfile.deb
+
+
+# method 2
 sudo apt install virtualbox
 
 sudo usermod -G vboxusers -a $USER
