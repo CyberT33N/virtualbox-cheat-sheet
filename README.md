@@ -280,7 +280,11 @@ VBoxManage sharedfolder add "Kubuntu 22.04 - privat" --name sharename --hostpath
 
 # guest
 mkdir /home/<user>/vboxshare
-sudo mount -t vboxsf -o uid=1000,gid=1000 sharename /home/<user>/vboxshare  
+sudo mount -t vboxsf -o uid=1000,gid=1000 sharename /home/<user>/vboxshare
+
+sudo usermod -aG vboxsf $USER
+
+reboot
 ```
 
 ### permissions
