@@ -271,7 +271,19 @@ VBoxManage extpack install /Desktop/Oracle_VM_VirtualBox_Extension_Pack-6.1.38-1
 
 <br><br>
 
-## Shared folder permissions
+## Shared folder
+
+### Ubuntu
+```
+# host
+VBoxManage sharedfolder add "Kubuntu 22.04 - privat" --name sharename --hostpath "/home/<user>/Documents/shared"
+
+# guest
+mkdir /home/<user>/vboxshare
+sudo mount -t vboxsf -o uid=1000,gid=1000 sharename /home/<user>/vboxshare  
+```
+
+### permissions
 ```bash
 sudo adduser usernamehere vboxsf
 # reboot after this
