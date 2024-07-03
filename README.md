@@ -454,6 +454,8 @@ You must remove virtualbox encryption before convert or it not work..
 
 
 ## Reduce size of .vdi files
+- If you use dynamic disk size for your vdi files they will increase over time for whateever reason.
+
 If you have .vmdk files then convert them first to .vdi <br />
 <br />
 First we remove empty space on our VM and after this we use the --compact argument on our .vdi file.
@@ -465,7 +467,11 @@ sudo rm -f /EMPTY
 ```  
 
 ```bash
+# Windows
 "C:\Program Files\Oracle\VirtualBox\VBoxManage.exe" modifyhd "Y:\convertarea\Ubuntu 20.04 LTS v3\Ubuntu 20.04 LTS v3.vdi" --compact
+
+# Linux
+VBoxManage modifymedium disk '/home/userName/VirtualBox VMs/Kubuntu 22.04.vdi' --compact
 ```  
 
 
