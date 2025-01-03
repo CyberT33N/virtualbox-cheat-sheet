@@ -36,6 +36,66 @@ Virtualbox Cheat Sheet with the most needed stuff..
 
 
 
+<br><br>
+ _____________________________________________________
+ _____________________________________________________
+<br><br>
+
+# Audio
+
+## Settings for best audio quality
+
+Für die beste Audioqualität und minimalste Latenz in einer **VirtualBox-VM** bei Musikproduktion würde ich dir folgendes Setup empfehlen:
+
+---
+
+### **Host Audio Driver:**
+Wähle **PulseAudio**:
+- **Warum?**  
+  - PulseAudio bietet die beste Integration mit Linux-Systemen und unterstützt fortgeschrittene Audio-Routing-Funktionen.  
+  - Es funktioniert besonders gut, wenn du auf deinem Host-System Ubuntu nutzt, da PulseAudio dort standardmäßig verwendet wird.
+
+---
+
+### **Audio Controller:**
+Wähle **Intel HD Audio**:
+- **Warum?**  
+  - Es bietet die beste Audioqualität und ist moderner als die anderen Optionen (z. B. ICH AC97 oder SoundBlaster16, die eher veraltet sind).  
+  - Intel HD Audio unterstützt höhere Sampleraten und Bit-Tiefen, was wichtig ist für Musikproduktion.
+
+---
+
+### **Optimierungen für Musikproduktion in VirtualBox:**
+
+1. **Virtuelle Maschine optimieren**:
+   - Aktiviere **3D-Beschleunigung** in den VM-Einstellungen unter **Anzeige**.
+   - Erhöhe die Anzahl der **CPU-Kerne** und stelle sicher, dass genügend RAM zugewiesen ist (mindestens 8 GB, falls möglich).
+
+2. **Latenz reduzieren**:
+   - **Installiere Guest Additions** in der VM:
+     ```bash
+     sudo apt install virtualbox-guest-utils
+     ```
+   - Setze die VirtualBox-Audio-Puffergröße auf einen niedrigeren Wert:
+     - Öffne das Terminal und füge dies zur VirtualBox-Konfiguration hinzu:
+       ```bash
+       VBoxManage setextradata "NameDerVM" "VBoxInternal2/Audio/BufferSize" "128"
+       ```
+
+3. **Externe Audio-Geräte bevorzugen**:
+   - Falls du ernsthafte Musikproduktion betreibst, solltest du ein **USB-Audio-Interface** (wie Focusrite Scarlett oder Steinberg UR22C) direkt an die VM durchreichen:
+     - Gehe zu **Geräte > USB** und wähle dein Audio-Interface.
+
+4. **Software-Synths oder DAW in der VM**:
+   - Nutze eine DAW, die unter Linux gut läuft, wie **Reaper** oder **Bitwig Studio**.
+
+---
+
+### **Zusammenfassung deiner Einstellungen:**
+- Host Audio Driver: **PulseAudio**  
+- Audio Controller: **Intel HD Audio**
+
+Das sollte dir die beste Qualität und Stabilität bieten. 🎧
 
 
 
